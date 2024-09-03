@@ -1,0 +1,1 @@
+# SQLiteEF_LowPower

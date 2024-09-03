@@ -1,5 +1,4 @@
-﻿using static The_Complete_cSharp.LivingThing;
-
+﻿
 namespace The_Complete_cSharp
 {
     internal class Program

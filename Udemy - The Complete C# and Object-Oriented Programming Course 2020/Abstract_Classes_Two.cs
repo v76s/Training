@@ -110,6 +110,11 @@ namespace The_Complete_cSharp
         }
     }
 
+    /// <summary>
+    /// Sends data to the server by overriding the base implementation.
+    /// </summary>
+    /// <param name="downlinkData">The data to be sent to the server.</param>
+    /// <returns>An exception if there was an error sending the data, otherwise null.</returns>
     public class AbstractMultitech : AbstractGateway
     {
         public override Exception? SendDataToServer(byte[] downlinkData)

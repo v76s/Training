@@ -30,7 +30,8 @@ namespace The_Complete_cSharp
             //cat.MakeSound(); // Output: Meow!
             //cat.Sleep();     // Output: Sleeping...
 
-
+            Polymorphism_One polymorphism_One = new Polymorphism_One();
+            polymorphism_One.DisplayShapes(); 
         }
     }
 }

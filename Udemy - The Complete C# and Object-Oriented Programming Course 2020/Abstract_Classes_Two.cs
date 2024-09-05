@@ -53,6 +53,7 @@ namespace The_Complete_cSharp
 
     public class AbstractGateway : Abstract_IOT_Device
     {
+        #region [Abstract Gateway Definitions]
         protected override Exception? DecodeDownlink(string Package)
         {
             Console.WriteLine("Decode downlink implemented in AbstractGateway");
@@ -108,6 +109,7 @@ namespace The_Complete_cSharp
         {
             return new IOException();           
         }
+        #endregion
     }
 
     /// <summary>

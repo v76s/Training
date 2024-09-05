@@ -12,7 +12,7 @@ namespace The_Complete_cSharp
     /// public - private - protected and internal access modifiers
     /// </summary>
     public class EncapsulationAnimals
-    {
+    {        
         public EncapsulationAnimals()
         {
             Console.WriteLine("EncapsulationAnimals constructor implemented ...");

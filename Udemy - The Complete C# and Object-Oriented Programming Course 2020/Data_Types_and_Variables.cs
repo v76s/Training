@@ -1,11 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace The_Complete_cSharp
 {
+    /// <summary>
+    /// Definition of a basic Enumeration
+    /// </summary>
+    enum Weekday
+    {
+        Monday = 0xAC, 
+        Tuesday = 0xCC,
+        Wednesday = 4
+    }
+    // Access by using 
+    // int IntValueOfMonday = (int) Weekday.Monday; 
+
     /// <summary>
     /// The demonstration of data types and variables
     /// </summary>
@@ -37,9 +50,7 @@ namespace The_Complete_cSharp
 
             Console.WriteLine("The float : {0}", f_nr);
             Console.WriteLine("The double : {0}", d_nr);
-            Console.WriteLine("The decimal : {0}", dc_nr);
-
+            Console.WriteLine("The decimal : {0}", dc_nr);  
         }
     }
-
 }

@@ -18,7 +18,7 @@ int main()
 	// Update the memory address in bitwise form, we're done with ptr, overwrite it. 
 	
 	ptr = (uint8_t*)0x20001000; 
-	*ptr = (0x08 | 0x20) ;  // which is actually the OR operation for (00001000 | 00100000) = (00101000)			
+	*ptr |= (0x08 | 0x20) ;  // which is actually the OR operation for (00001000 | 00100000) = (00101000)			
 	
 	while(1)
 	{

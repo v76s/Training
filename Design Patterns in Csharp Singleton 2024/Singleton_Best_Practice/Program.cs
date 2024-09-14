@@ -36,5 +36,23 @@
             Console.WriteLine("Static constructor");
         }
     }
-
 }
+
+
+// FOR .NET 8.0 we implement the Singleton pattern much easily as below ; 
+
+//using Microsoft.Extensions.DependencyInjection;
+
+//IServiceCollection services = new ServiceCollection();
+
+//services.AddSingleton<Logger>();
+
+//var serviceProvider = services.BuildServiceProvider();
+
+//var logger1 = serviceProvider.GetRequiredService<Logger>();
+//var logger2 = serviceProvider.GetRequiredService<Logger>();
+//var logger3 = serviceProvider.GetRequiredService<Logger>();
+//var logger4 = serviceProvider.GetRequiredService<Logger>();
+//class Logger
+//{
+//}

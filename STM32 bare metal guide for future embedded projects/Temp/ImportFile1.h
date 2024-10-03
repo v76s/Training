@@ -1,0 +1,11 @@
+#ifndef IMPORTFILE1
+#define IMPORTFILE1
+
+#define GPIOA_BASE_ADDRESS 	0x40020000	// GPIO-A Base Address
+#define GPIOB_BASE_ADDRESS 	0x40020400	// GPIO-B Base Address
+#define GPIOC_BASE_ADDRESS 	0x40020800	// GPIO-C Base Address
+#define GPIOD_BASE_ADDRESS 	0x40020C00	// GPIO-D Base Address
+#define GPIOE_BASE_ADDRESS  0x40021000  // GPIO-E Base address
+
+
+#endif

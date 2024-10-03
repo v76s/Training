@@ -1,0 +1,27 @@
+Embedded Software and Hardware Architecture 2023
+Theoretical titles covered: 
+-Architecture/Software Interface
+-Word Size and Data Types
+-Pointers
+-Interacting with Memory
+-Memory Alignment
+-Endianness
+-Compiler Attributes
+-Memory Map and Registers
+-Register Definition Files
+-Memory Access and Manipulation Introduction
+-Bit Manipulation
+-IO Port Configuration Example
+-Creating Software Interfaces for Hardware
+-Advanced Pointer Use
+-Function Pointers
+-Debugging a Microcontroller Program Part 1
+-Debugging a Microcontroller Program Part 2
+-Introduction to Data Structures
+-Enumerations
+-Unions
+-Structures and Encapsulation
+-Bit Fields
+-LIFO Buffer
+-Circular Buffer
+-Linked List

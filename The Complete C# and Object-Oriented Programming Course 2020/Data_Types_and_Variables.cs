@@ -50,7 +50,8 @@ namespace The_Complete_cSharp
 
             Console.WriteLine("The float : {0}", f_nr);
             Console.WriteLine("The double : {0}", d_nr);
-            Console.WriteLine("The decimal : {0}", dc_nr);  
+            Console.WriteLine("The decimal : {0}", dc_nr);   
+            Console           
         }
     }
 }
